@@ -10,5 +10,12 @@ class StaticPagesControllerTest < ActionController::TestCase
     get :help
     assert_response :success
   end
+  
+  test "should get help" do
+    get :about
+    assert_response :success
+  end
 
 end
+
+About | Ruby on Rails Tutorial Sample App
